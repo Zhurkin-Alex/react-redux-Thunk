@@ -1,0 +1,45 @@
+.todo-item__page{
+  margin: 0 auto;
+}
+.todo-item__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(240, 158, 158);
+  // max-width: 65%;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  padding: 4px;
+  .todo-item__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+  }
+  .todo-item__name{
+    padding-left: 15px;
+  }
+  .todo-item__textarea{
+    padding-left: 20px;
+    word-wrap: break-word;
+    max-width: 240px;
+  }
+  .todo-item__update{
+    margin-right: 7px;
+  }
+  .todo-item__save{
+    margin-right: 40px;
+  }
+  .btn{
+    min-width: 80px;
+  }
+ 
+}
+.done{
+  color: green;
+  
+  text-decoration: line-through;
+}
+.done-box{
+  border:2px solid grey;
+}

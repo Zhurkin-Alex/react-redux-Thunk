@@ -1,0 +1,21 @@
+.navbar{
+  position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.userIn{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  // justify-content: space-between;
+}
+.userRegistr{
+  display: flex;
+  align-items: center;
+}
+.log-out{
+  cursor: pointer;
+}
+.navbar-items{
+  width: 100%;
+}
